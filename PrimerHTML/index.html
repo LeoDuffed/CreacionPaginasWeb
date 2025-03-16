@@ -21,8 +21,37 @@
     <a href="https://www.google.com.mx">Ir a Google</a>
     <p>El ejemplo de bajo te redirecciona en <span style="color: blue">otra pestaña</span></p>
     <a target="_blank" href="https://www.google.com.mx">Ir a Google</a>
+    <hr>
     <h1>Imagenes dentro de la pagina web</h1>
     <img src="img/imagenWPP.jpg" width="400"/>
+    <hr>
+    <h1>Interaccion con usario</h1>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <p>Caja de texto con 'textarea'</p>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="30" rows="5"id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <label>No precionar -></label>
+        <input type="submit"/>
+    </form>
+    <p>Diferentes tipos de types:<br>- submit<br>- password<br>- email<br>- radio<br>- checkbox<br>- file</p>
+    <hr>
+    <h1>Tipos de Botones</h1>
+    <p>- button<br>- reset<br>- submit</p>
+    <form>
+        <label>Este es un button</label>
+        <button type="button">Enviar</button>
+        <br>
+        <label>Este es un reset</label>
+        <button type="reset">Reset</button>
+        
+    </form>
 
 </body>
-</hmtl>
+</hmtl> 
