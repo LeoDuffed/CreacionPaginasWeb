@@ -4,9 +4,10 @@ body{
 }
 
 .imagenes-container{
-    margin: 100px auto;
-    width: 500px;
+    justify-content: center;
     display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
 .imagenes-container .imagen{
@@ -17,9 +18,9 @@ body{
 }
 
 .imagenes-container .imagen img{
-    width: 80px;
-    height: 80px;
-    transition: transform 0.3s ease-in-out;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.5s ease-in-out;
 }
 
 .imagenes-container .imagen .nombre{
@@ -31,7 +32,6 @@ body{
     min-width: 100px;
     width: 150px;
     top: -50px;
-    left: -70px;
     padding: 10px 15px;
 }
 
@@ -48,6 +48,7 @@ body{
 
 .imagenes-container .imagen:hover .nombre{
     display: inline-block;
+    transform: translateY(-20px);
 }
 
 .imagenes-container .imagen .nombre::before{
@@ -55,7 +56,7 @@ body{
     position: absolute;
     width: 1px;
     height: 1px;
-    left: 50%;
+    left: 40%;
     bottom: -20px;
     border-top: 10px solid brown;
     border-left: 10px solid transparent;
@@ -64,6 +65,13 @@ body{
 }
 
 .imagenes-container .imagen:hover img{
-transform: translateY(-3px);
+transform: translateY(-20px);
 
+}
+
+@media(max-width: 680px){
+    .imagenes-container{
+        flex-direction: column;
+        height: 130vh;
+    }
 }
