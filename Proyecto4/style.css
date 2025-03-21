@@ -23,6 +23,10 @@
     font-feature-settings: 'liga';
   }
 
+body{
+  font-family: sans-serif;
+}
+
 .search-bar{
     border: solid 1px #ccc;
     border-radius: 50px;
@@ -43,4 +47,22 @@
   outline: none;
   pad: 10px;
   font-size: 18px;
+  flex:auto;
+}
+
+.search-bar .actions{
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar .actions button{
+  border: none;
+  outline: none;
+  background:none;
+  cursor: pointer;
+  color:black;
+}
+
+.search-bar .actions button:hover{
+  color:blue;
 }
