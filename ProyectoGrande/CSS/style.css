@@ -1,3 +1,31 @@
 :root {
   --color1:#d78f46;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--color1);
+  background-image: url(../img/fondocard.webp);
+  background-repeat: no-repeat;
+  display: flexbox;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 328px;
+  border-radius: 16px;
+  border: solid 2px #ccc;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.card-header {
+  width: 328px;
+  border-radius: 13px;
 }/*# sourceMappingURL=style.css.map */
