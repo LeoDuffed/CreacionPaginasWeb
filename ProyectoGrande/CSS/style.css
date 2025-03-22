@@ -1,13 +1,21 @@
 :root {
-  --color1:#d78f46;
+  --color1: white;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
   font-family: sans-serif;
   background-color: var(--color1);
-  background-image: url(../img/fondocard.webp);
+  background-image: url(../img/fondo2.jpg);
   background-repeat: no-repeat;
-  display: flexbox;
 }
 
 .contenedor {
@@ -21,11 +29,62 @@ body {
   background-color: white;
   width: 328px;
   border-radius: 16px;
-  border: solid 2px #ccc;
-  box-shadow: 5px 5px 10px gray;
 }
-
 .card-header {
   width: 328px;
   border-radius: 13px;
+  display: block;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid darkcyan;
+  border-radius: 15px;
+}
+.card-body-contentimg {
+  border: 5px solid #a79a9a;
+  border-radius: 50%;
+  margin-top: 8%;
+  margin-bottom: 8px;
+  background-color: #a79a9a;
+  box-shadow: 0px -5px 5px #a79a9a;
+}
+.card-body-contentimg-img {
+  padding: 2px;
+}
+.card-body-title {
+  font-size: 3rem;
+}
+.card-body-title-num {
+  font-size: 2rem;
+  color: rgb(223, 65, 65);
+}
+.card-body-text {
+  margin-bottom: 10%;
+  font-size: 1.5rem;
+}
+.card-body-text-num {
+  font-size: 2rem;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.card-footer-fase {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3b3636;
+}
+.card-footer-tipo {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3b3636;
+}
+.card-footer-rare {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3b3636;
 }/*# sourceMappingURL=style.css.map */
