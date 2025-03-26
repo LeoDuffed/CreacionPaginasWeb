@@ -50,3 +50,12 @@ for(let n = 2;n < 10; n++){
     }
 }
 
+// For Of
+
+console.log("Ciclo For Of");
+
+let animales=['Perro', 'Gato', 'Pez', 'Gallina'];
+
+for(let animal of animales){
+    console.log(animal);
+}
