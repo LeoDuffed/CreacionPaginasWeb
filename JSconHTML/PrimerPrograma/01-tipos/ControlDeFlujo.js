@@ -1,6 +1,6 @@
 // IF
 
-console.log("Ciclo If");
+console.log("-- Ciclo If");
 
 let edad = 12;
 
@@ -14,7 +14,7 @@ if(edad > 17){
 
 // While
 
-console.log("Ciclo While");
+console.log("-- Ciclo While");
 
 let i = 0;
 
@@ -28,7 +28,7 @@ while(i < 10){
 
 // Do While
 
-console.log("Ciclo Do While");
+console.log("-- Ciclo Do While");
 
 j = 0;
 do{
@@ -42,7 +42,7 @@ do{
 
 // FOR
 
-console.log("Ciclo For");
+console.log("-- Ciclo For");
 
 for(let n = 2;n < 10; n++){
     if(n %2 == 0){
@@ -52,10 +52,24 @@ for(let n = 2;n < 10; n++){
 
 // For Of
 
-console.log("Ciclo For Of");
+console.log("-- Ciclo For Of");
 
 let animales=['Perro', 'Gato', 'Pez', 'Gallina'];
 
 for(let animal of animales){
     console.log(animal);
+}
+
+// For In
+
+console.log("-- Ciclo For In");
+
+let user ={
+    id: 1,
+    name: 'Mila',
+    age: 12,
+};
+
+for(let prop in user){
+    console.log(prop, user[prop]);
 }
