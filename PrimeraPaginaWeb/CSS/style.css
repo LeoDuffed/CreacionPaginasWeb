@@ -1,1 +1,99 @@
-/*# sourceMappingURL=style.css.map */
+:root {
+  --color1: #131313;
+  --color2: #ff8177;
+  --color3: #ff0844;
+  --color4: #ffb199;
+  --color5: #fff;
+  --color6: #833ab4;
+  --color7: #fcb045;
+  --color8: #fd1d1d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  background: var(--color1);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.navbar-container-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar-container-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+.navbar-container-menu-item {
+  height: 80px;
+}
+.navbar-container-menu-item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: var(--color6);
+  background: linear-gradient(to right, var(--color7), var(--color8), var(--color6));
+  color: var(--color5);
+  transition: all 0.3s;
+}
+.navbar-container-menu-item-links {
+  color: var(--color5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  text-decoration: none;
+  height: 100%;
+}
+
+#navbar__logo {
+  background-color: var(--color2);
+  background-image: linear-gradient(to top, var(--color3) 0%, var(--color4) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 3rem;
+}/*# sourceMappingURL=style.css.map */
