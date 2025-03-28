@@ -119,7 +119,7 @@ html {
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 2rem;
+    padding: 0 3rem;
   }
   .navbar-container-toggle .bar {
     width: 25px;
@@ -170,7 +170,7 @@ html {
     z-index: 99;
     height: 60vh;
     font-size: 2.6rem;
-    padding: 0 25rem;
+    padding: 0 20rem;
   }
   #navbar_logo {
     padding: 25px;
@@ -234,4 +234,22 @@ html {
 
 .highlight {
   border-bottom: 4px solid rgb(123, 0, 255);
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container-heading {
+    font-size: 6rem;
+  }
+  .hero-container-heading-description {
+    font-size: 4rem;
+  }
+}
+.main {
+  background-color: var(--color1);
+  padding: 10rem 0;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -130,7 +130,7 @@ html{
         z-index: 1;
         width: 100%;
         max-width: 1300px;
-        padding: 1rem;
+        padding: 0 3rem;
 
         &-toggle .bar{
             width: 25px;
@@ -152,7 +152,7 @@ html{
             opacity: 1;
             transition: all 0.5s ease;
             z-index: -1;
-            font-size: 2rem;
+            font-size: 1rem;
 
             &-btn{
                 padding-bottom: 2rem;
@@ -187,7 +187,8 @@ html{
             transition: all 0.5s ease;
             z-index: 99;
             height: 60vh;
-            font-size: 3.5rem;
+            font-size: 2.6rem;
+            padding: 0 20rem;
         }
     }
 
@@ -269,7 +270,7 @@ html{
     border-bottom: 4px solid rgb(123,0,255);
 }
 
-@media screen and(max-width: 768px){
+@media screen and (max-width: 960px){
     .hero{
 
         &-container{
@@ -284,5 +285,19 @@ html{
                 }
             }
         }
+    }
+}
+
+// About section
+
+.main{
+    background-color: var(--color1);
+    padding: 10rem 0;
+
+    &-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center ;
+
     }
 }
