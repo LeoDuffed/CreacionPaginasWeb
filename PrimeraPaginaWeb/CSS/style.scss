@@ -130,7 +130,7 @@ html{
         z-index: 1;
         width: 100%;
         max-width: 1300px;
-        padding: 0;
+        padding: 1rem;
 
         &-toggle .bar{
             width: 25px;
@@ -152,6 +152,7 @@ html{
             opacity: 1;
             transition: all 0.5s ease;
             z-index: -1;
+            font-size: 2rem;
 
             &-btn{
                 padding-bottom: 2rem;
@@ -186,7 +187,7 @@ html{
             transition: all 0.5s ease;
             z-index: 99;
             height: 60vh;
-            font-size: 1.5rem;
+            font-size: 3.5rem;
         }
     }
 

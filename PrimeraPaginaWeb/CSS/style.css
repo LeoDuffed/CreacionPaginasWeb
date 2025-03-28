@@ -119,7 +119,7 @@ html {
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0;
+    padding: 1rem;
   }
   .navbar-container-toggle .bar {
     width: 25px;
