@@ -8,6 +8,13 @@
     --color7: #fcb045;
     --color8: #fd1d1d;
     --color9: #942bea;
+    --color10: #000000;
+    --color11: #161616;
+    --color12: #d81271;
+    --color13: #da22ff;
+    --color14: #9114ff;
+    --color15: #da22ff;
+    --color16: #8f0eff;
 }
 
 *{
@@ -21,6 +28,8 @@
 html{
     font-size: 62.5%;
 }
+
+// Nav bar section
 
 .navbar{
     background: var(--color1);
@@ -202,5 +211,77 @@ html{
 
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+// Hero Section
+
+.hero{
+    background: var(--color10);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding: 200px 0;
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 30px;
+
+        &-heading span{
+            background: var(--color6);
+            background: -webkit-linear-gradient(to right, var(--color7), var(--color8), var(--color12));
+            background: linear-gradient(to right, var(--color7), var(--color8), var(--color12));
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+
+        &-heading{
+            font-size: 10rem;
+            margin-bottom: 24px;
+            color: var(--color5);
+
+            &-description{
+                font-size: 6rem;
+                background: var(--color13);
+                background: -webkit-linear-gradient(to right, var(--color14), var(--color13));
+                background: linear-gradient(to right, var(--color16), var(--color13));
+                background-size: 100%;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+
+            }
+        }
+    }
+}
+
+.highlight{
+    border-bottom: 4px solid rgb(123,0,255);
+}
+
+@media screen and(max-width: 768px){
+    .hero{
+
+        &-container{
+
+            &-heading{
+                font-size: 6rem;
+
+                &-description{
+
+                    font-size: 4rem;
+
+                }
+            }
+        }
     }
 }
