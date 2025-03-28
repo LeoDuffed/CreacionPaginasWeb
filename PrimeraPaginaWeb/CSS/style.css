@@ -15,6 +15,9 @@
   --color14: #9114ff;
   --color15: #da22ff;
   --color16: #8f0eff;
+  --color17: #fe3b6f;
+  --color18: #ff087b;
+  --color19: #ed1a52;
 }
 
 * {
@@ -252,4 +255,62 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+.main-container-content {
+  color: var(--color5);
+  width: 100%;
+}
+.main-container-content h1 {
+  font-size: 3.7rem;
+  background-color: var(--color17);
+  background-image: linear-gradient(to top, var(--color18) 0%, var(--color19) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+.main-container-content h2 {
+  font-size: 5rem;
+  background: var(--color2);
+  background: linear-gradient(to right, var(--color16), var(--color13));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.main-container-content p {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.main_btn {
+  font-size: 1.8rem;
+  background: var(--color6);
+  background: linear-gradient(to right, var(--color7), var(--color8), var(--color6));
+  border: none;
+  padding: 20px 60px;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.main_btn a {
+  position: relative;
+  z-index: 2;
+  color: var(--color5);
 }/*# sourceMappingURL=style.css.map */
