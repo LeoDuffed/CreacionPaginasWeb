@@ -123,5 +123,71 @@ html{
         max-width: 1300px;
         padding: 0;
 
+        &-toggle .bar{
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            transition: all 0.3 ease-in-out;
+            background: var(--color5);
+        }
+
+        &-menu{
+            display: grid;
+            grid-template-columns: auto;
+            margin: 0;
+            width: 100%;
+            position: absolute;
+            /*top: -1000px;*/
+            opacity: 1;
+            transition: all 0.5s ease;
+            z-index: -1;
+            background: var(--color1);
+
+            &-btn{
+                padding-bottom: 2rem;
+
+                &-button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 80%;
+                    height: 80px;
+                    margin: 0;
+                }
+            }
+
+            &-item{
+                width: 100%;
+
+                &-links{
+                    text-align: center;
+                    padding: 2rem;
+                    width: 100%;
+                    display: table;
+                }
+
+            }
+        }
+
+        &-menu.active{
+            background: var(--color1);
+            top: 100%;
+            opacity: 1;
+            transition: all 0.5s ease;
+            z-index: 99;
+            height: 60vh;
+            font-size: 1.5rem;
+        }
+    }
+
+    #navbar_logo{
+        padding: 25px;
+    }
+
+    #mobile-menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
     }
 }
