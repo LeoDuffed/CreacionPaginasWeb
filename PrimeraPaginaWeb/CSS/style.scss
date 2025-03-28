@@ -129,6 +129,8 @@ html{
             margin: 5px auto;
             transition: all 0.3 ease-in-out;
             background: var(--color5);
+            display: block;
+            cursor: pointer;
         }
 
         &-menu{
@@ -137,11 +139,10 @@ html{
             margin: 0;
             width: 100%;
             position: absolute;
-            /*top: -1000px;*/
+            top: -1000px;
             opacity: 1;
             transition: all 0.5s ease;
             z-index: -1;
-            background: var(--color1);
 
             &-btn{
                 padding-bottom: 2rem;
@@ -189,5 +190,17 @@ html{
         top: 20%;
         right: 5%;
         transform: translate(5%, 20%);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
