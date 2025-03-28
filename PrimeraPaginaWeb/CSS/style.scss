@@ -7,6 +7,7 @@
     --color6: #833ab4;
     --color7: #fcb045;
     --color8: #fd1d1d;
+    --color9: #942bea;
 }
 
 *{
@@ -76,6 +77,12 @@ html{
                 transition: all 0.3s;
             }
 
+            &-links:hover{
+                color: var(--color9);
+                transition: all 0.3s ease;
+
+            }
+
             &-links{
                 color: var(--color5);
                 display: flex;
@@ -84,11 +91,13 @@ html{
                 width: 125px;
                 text-decoration: none;
                 height: 100%;
+                transition: all 0.3s ease;
             }
          }
         }
     }
 }
+
 #navbar__logo{
     background-color: var(--color2);
     background-image: linear-gradient(to top, var(--color3) 0%, var(--color4) 100%);
@@ -102,4 +111,17 @@ html{
     cursor: pointer;
     text-decoration: none;
     font-size: 3rem;
+}
+
+@media screen and (max-width: 960px){
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+
+    }
 }
