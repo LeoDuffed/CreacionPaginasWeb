@@ -381,12 +381,13 @@ html{
 }
 
 .main_btn{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: 600;
     background: var(--color6);
     background: -webkit-linear-gradient(to right, var(--color7), var(--color8), var(--color6));
     background: linear-gradient(to right, var(--color7), var(--color8), var(--color6));
     border: none;
-    padding: 20px 60px;
+    padding: 20px 50px;
     border-radius: 4px;
     margin-top: 1.5rem;
     cursor:pointer;
@@ -508,11 +509,14 @@ html{
             outline: none;
             border-radius: 4px;
             background: var(--color11);
-            font-size: 1.4rem;
+            font-size: 1.6rem;
         }
 
         &-card button:hover{
             cursor: pointer;
+            transition: 0.3s ease-in;
+            transform: scale(1.12);
+            font-size: 2rem;
         }
 
         &-card:hover{
@@ -538,7 +542,7 @@ html{
                 display: flex;
                 justify-content: center;
                 margin-top: 2rem;
-
+ 
             }
 
         }
