@@ -203,7 +203,7 @@ html {
   }
 }
 .hero {
-  background: var(--color10);
+  background: var(--color1);
   background: linear-gradient(to right, var(--color11), var(--color10));
   padding: 200px 0;
 }
@@ -257,6 +257,7 @@ html {
 }
 .main {
   background-color: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
   padding: 10rem 0;
 }
 .main-container {
@@ -300,7 +301,7 @@ html {
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
   margin-top: 32px;
-  font-weight: 700;
+  font-weight: 900;
 }
 .main-container-content h2 {
   font-size: 5rem;
@@ -395,6 +396,7 @@ html {
 }
 .services {
   background-color: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -407,6 +409,36 @@ html {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
+.services-wrapper-card h2 {
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 3rem;
+}
+.services-wrapper-card p {
+  text-align: center;
+  margin-top: 24px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 2rem;
+}
+.services-wrapper-card button {
+  color: var(--color5);
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: var(--color11);
+  font-size: 1.4rem;
+}
+.services-wrapper-card button:hover {
+  cursor: pointer;
+}
+.services-wrapper-card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
 .services-wrapper-card {
   margin: 10px;
   height: 425px;
@@ -416,8 +448,25 @@ html {
   flex-direction: column;
   justify-content: center;
   color: var(--color5);
-  background-image: linear-gradient(to right, var(--color23) 100%, var(--color17) 0%);
+  background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
   transition: 0.3s ease-in;
+}
+.services-wrapper-card-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.services-wrapper-card:nth-child(2) {
+  background-image: linear-gradient(to right, var(--color13) 0%, var(--color20) 90%);
+}
+
+.services-wrapper-card:nth-child(3) {
+  background-image: linear-gradient(to right, var(--color20) 0%, var(--color18) 90%);
+}
+
+.services-wrapper-card:nth-child(4) {
+  background-image: linear-gradient(to right, var(--color18) 0%, var(--color19) 90%);
 }
 
 .services h1 {
@@ -429,9 +478,11 @@ html {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   margin-bottom: 4rem;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
-.services-wrapper-card:nth-child(2) {
-  background-image: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
+@media screen and (max-width: 960px) {
+  .services-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=style.css.map */
