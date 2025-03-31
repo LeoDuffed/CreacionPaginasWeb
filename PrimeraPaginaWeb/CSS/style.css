@@ -32,8 +32,10 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
 }
 
 html {
@@ -116,6 +118,7 @@ html {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
+  font-weight: 700;
   align-items: center;
   cursor: pointer;
   text-decoration: none;
@@ -462,11 +465,11 @@ html {
 }
 
 .services-wrapper-card:nth-child(3) {
-  background-image: linear-gradient(to right, var(--color20) 0%, var(--color18) 90%);
+  background-image: linear-gradient(to right, var(--color20) 0%, var(--color3) 90%);
 }
 
 .services-wrapper-card:nth-child(4) {
-  background-image: linear-gradient(to right, var(--color18) 0%, var(--color19) 90%);
+  background-image: linear-gradient(to right, var(--color3) 0%, var(--color23) 90%);
 }
 
 .services h1 {
