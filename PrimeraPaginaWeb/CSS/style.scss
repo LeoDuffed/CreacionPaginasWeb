@@ -22,6 +22,7 @@
     --color21: #00dbde;
     --color22: #fc00ff;
     --color23: #e84e43;
+    --color24: #d5723d;
 }
 
 * {
@@ -554,7 +555,7 @@ html{
 
 }
 .services-wrapper-card:nth-child(4){
-    background-image: linear-gradient(to right, var(--color3) 0%, var(--color23) 90%);
+    background-image: linear-gradient(to right, var(--color3) 0%, var(--color24) 90%);
 
 }
 
