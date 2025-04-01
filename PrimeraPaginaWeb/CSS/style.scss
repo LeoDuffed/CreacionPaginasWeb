@@ -387,6 +387,7 @@ html{
     background: -webkit-linear-gradient(to right, var(--color7), var(--color8), var(--color6));
     background: linear-gradient(to right, var(--color7), var(--color8), var(--color6));
     border: none;
+
     padding: 20px 50px;
     border-radius: 4px;
     margin-top: 1.5rem;
@@ -516,12 +517,12 @@ html{
             cursor: pointer;
             transition: 0.3s ease-in;
             transform: scale(1.12);
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         &-card:hover{
             transform: scale(1.075);
-            transition: 0.3s ease-in;
+            transition: 0.3s ease;
             cursor:pointer;
         }
 
@@ -587,5 +588,24 @@ html{
     }
 }
 
+// Feauters section
 
+#card_2{
+    background: var(--color17);
+    background: -webkit-linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
+    background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
+}
+
+#sign-up2{
+    display: block;
+    margin: 1rem 11rem;
+}
+
+@media screen and (max-width: 960px){
+    #sign-up2{
+        display: block;
+        margin: 2rem auto;
+    }
+}
+// Footer
 
