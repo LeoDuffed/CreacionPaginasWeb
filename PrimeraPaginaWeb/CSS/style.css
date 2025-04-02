@@ -610,4 +610,19 @@ html {
 }
 .icon-whatsapp {
   width: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .footerContainer-links {
+    padding-top: 2rem;
+  }
+  #footer__logo {
+    margin-bottom: 2rem;
+  }
+  .socialMedia-wrap {
+    flex-direction: column;
+  }
+  .socialMedia-wrap-rights {
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

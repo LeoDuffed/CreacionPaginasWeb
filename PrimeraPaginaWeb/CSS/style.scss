@@ -720,13 +720,41 @@ html{
     }
     &-tiktok{
         width: 30px;
+
     }
     &-whatsapp{
         width: 30px;
+
     }
 
 }
 
 @media screen and (max-width: 960px){
-    
+    .footerContainer{
+        &-links{
+            padding-top: 2rem;
+
+            %-wrapper{
+                flex-direction: column;
+            }
+        }
+    }
+
+    #footer__logo{
+        margin-bottom: 2rem;
+    }
+
+    .socialMedia{
+        
+        &-wrap{
+            flex-direction: column;
+
+            &-rights{
+                margin-bottom: 2rem;
+
+            }
+        }
+    }
+
 }
+
