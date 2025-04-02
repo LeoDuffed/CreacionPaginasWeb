@@ -520,14 +520,10 @@ html {
   justify-content: center;
   align-items: center;
 }
-.footerContainer-links {
-  width: 100%;
-}
 .footerContainer-links-wrapper {
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
 }
 .footerContainer-links-wrapper-item h2 {
@@ -538,6 +534,7 @@ html {
   text-decoration: none;
   color: var(--color5);
 }
+
 .socialMedia-wrap {
   display: flex;
   flex-direction: column;
@@ -547,9 +544,12 @@ html {
 }
 .socialMedia-wrap-rights {
   color: var(--color5);
+  justify-content: center;
 }
 .socialMedia-wrap-logo {
+  padding-top: 3rem;
   font-weight: 700;
+  justify-content: center;
 }
 
 #footer__logo {
@@ -564,24 +564,30 @@ html {
 .socialIcons {
   display: flex;
   flex-direction: row;
-}
-
-.icon-instagram {
-  width: 5%;
+  justify-content: center;
+  padding: 2rem 55rem;
 }
 
 .icon-facebook {
-  width: 5%;
+  width: 50%;
+}
+
+.icon-instagram {
+  width: 50%;
 }
 
 .icon-youtube {
-  width: 5%;
+  width: 50%;
 }
 
 .icon-linkedin {
-  width: 5%;
+  width: 50%;
 }
 
 .icon-tiktok {
-  width: 5%;
+  width: 50%;
+}
+
+.icon-whatsapp {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
