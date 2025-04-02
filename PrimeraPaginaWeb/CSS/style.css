@@ -23,6 +23,8 @@
   --color22: #fc00ff;
   --color23: #e84e43;
   --color24: #d5723d;
+  --color25: #e9e9e9;
+  --color26: #2a6ee3;
 }
 
 * {
@@ -520,36 +522,40 @@ html {
   justify-content: center;
   align-items: center;
 }
-.footerContainer-links-wrapper {
-  text-decoration: none;
+.footerContainer-links {
+  width: 100%;
+  max-width: 1000px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: center;
+}
+.footerContainer-links-wrapper {
+  display: flex;
 }
 .footerContainer-links-wrapper-item h2 {
-  font-size: 1.5rem;
+  margin-bottom: 16px;
   color: var(--color5);
+  font-size: 2rem;
+  font-weight: 700;
 }
 .footerContainer-links-wrapper-item a {
-  text-decoration: none;
   color: var(--color5);
+  text-decoration: none;
+  margin-bottom: 0.3rem;
+  transition: 0.3s ease-out;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-
-.socialMedia-wrap {
+.footerContainer-links-wrapper-item a:hover {
+  color: var(--color26);
+  transition: 0.3 ease-out;
+}
+.footerContainer-links-wrapper-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  justify-content: center;
-}
-.socialMedia-wrap-rights {
-  color: var(--color5);
-  justify-content: center;
-}
-.socialMedia-wrap-logo {
-  padding-top: 3rem;
-  font-weight: 700;
-  justify-content: center;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  box-sizing: border-box;
 }
 
 #footer__logo {
@@ -558,36 +564,50 @@ html {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.socialMedia {
+  max-width: 10000px;
+  width: 100%;
+}
+.socialMedia-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 10000px;
+  margin: 40px auto 0 auto;
+}
+.socialMedia-wrap-rights {
+  color: var(--color5);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .socialIcons {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 2rem 55rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
 }
 
 .icon-facebook {
-  width: 50%;
+  width: 30px;
 }
-
 .icon-instagram {
-  width: 50%;
+  width: 30px;
 }
-
 .icon-youtube {
-  width: 50%;
+  width: 30px;
 }
-
 .icon-linkedin {
-  width: 50%;
+  width: 30px;
 }
-
 .icon-tiktok {
-  width: 50%;
+  width: 30px;
 }
-
 .icon-whatsapp {
-  width: 50%;
+  width: 30px;
 }/*# sourceMappingURL=style.css.map */
