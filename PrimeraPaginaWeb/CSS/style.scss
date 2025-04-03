@@ -707,23 +707,90 @@ html{
 .icon{
     &-facebook{
         width: 30px;
+        height: 30px;
+        background-color: var(--color1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 30px;
+            filter: brightness(0) invert(1);
+        }
+
 
     }
     &-instagram{
         width: 30px;
+        height: 30px;
+        background-color: var(--color1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 30px;
+            filter: brightness(0) invert(1);
+        }
     }
     &-youtube{
         width: 30px;
+        height: 30px;
+        background-color: var(--color1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 30px;
+            filter: brightness(0) invert(1);
+        }
     }
     &-linkedin{
         width: 30px;
+        height: 30px;
+        background-color: var(--color1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 30px;
+            filter: brightness(0) invert(1);
+        }
     }
     &-tiktok{
         width: 30px;
+        height: 30px;
+        background-color: var(--color1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 30px;
+            filter: brightness(0) invert(1);
+        }
 
     }
     &-whatsapp{
         width: 30px;
+        height: 30px;
+        background-color: var(--color1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 30px;
+            filter: brightness(0) invert(1);
+        }
 
     }
 
@@ -761,3 +828,74 @@ html{
 
 // Pagina nueva de informes 
 
+.informes{
+
+    background: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding: 100px 0;
+
+    &-container{
+        display: flex;
+        background-color: var(--color10);
+        flex-direction: column;
+        justify-content:left;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align:left;
+        padding: 50px;
+
+        &-heading{
+            background: var(--color6);
+            background: -webkit-linear-gradient(to right, var(--color7), var(--color8), var(--color12));
+            background: linear-gradient(to right, var(--color7), var(--color8), var(--color12));
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+            font-size: 10rem;
+            margin-bottom: 40px;
+            text-align: center;
+
+            &-description strong{
+                color: var(--color6);
+                font-weight: 600;
+                font-size: 3;
+
+            }
+
+            &-description em{
+                color: var(--color6);
+                font-weight: 500;
+            }
+
+            &-description li{
+                font-size: 2.5rem;
+                justify-content: center;
+            }
+
+            &-description{
+                font-size: 3rem;
+                font-weight: 500;
+                color: var(--color5);
+
+            }
+            
+        }
+
+
+    }
+}
+
+#strong1{
+    background: var(--color2);
+    background: -webkit-linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
+    background: linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 700;
+}
