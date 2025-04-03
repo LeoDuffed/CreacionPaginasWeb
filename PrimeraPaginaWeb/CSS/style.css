@@ -693,7 +693,6 @@ html {
 }
 .informes-container {
   display: flex;
-  background-color: var(--color10);
   flex-direction: column;
   justify-content: left;
   max-width: 1200px;
