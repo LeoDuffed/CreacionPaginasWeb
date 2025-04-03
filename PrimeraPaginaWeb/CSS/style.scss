@@ -897,7 +897,7 @@ html{
                     flex-direction: row;
                     justify-content: center ;
                     color: var(--color5);
-                    background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+                    background-image: linear-gradient(to top, var(--color13) 0%, var(--color16) 100%);
                     transition: 0.3s ease-in;
                 }
 
@@ -917,7 +917,7 @@ html{
                     flex-direction: row;
                     justify-content: left ;
                     color: var(--color5);
-                    background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+                    background-image: linear-gradient(to top, var(--color16) 0%, var(--color13) 100%);
                     transition: 0.3s ease-in;
                 }
 
@@ -937,7 +937,7 @@ html{
                     flex-direction: row;
                     justify-content: center ;
                     color: var(--color5);
-                    background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+                    background-image: linear-gradient(to top, var(--color16) 0%, var(--color13) 100%);
                     transition: 0.3s ease-in;
                     
                 }
@@ -1018,8 +1018,105 @@ html{
             flex-direction: column;
             justify-content: center ;
             color: var(--color5);
-            background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+            background-image: linear-gradient(to right, var(--color24) 0%, var(--color3) 90%);
             transition: 0.3s ease-in;
         }
     }
+}
+
+.informes2-wrapper-card:nth-child(2){
+    background-image: linear-gradient(to right, var(--color3) 0%, var(--color20) 90%);
+}
+.informes2-wrapper-card:nth-child(3){
+    background-image: linear-gradient(to right, var(--color20) 0%, var(--color13) 90%);
+
+}
+.informes2-wrapper-card:nth-child(4){
+    background-image: linear-gradient(to right, var(--color13) 0%, var(--color9) 90%);
+
+}
+
+#card_3{
+    background-image: linear-gradient(to right, var(--color26) 0%, var(--color21) 100%);
+
+}
+
+
+// Informacion 3
+
+
+.informes3{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding: 5rem 5rem 0 0;
+
+    &-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        height: 90%;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 50px;
+
+        &-img{
+            text-align: center;
+            padding-left: 20px;
+            
+            &-card{
+                margin: 10px;
+                height: 500px;
+                width: 500px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color:var(--color5);
+                background-image: linear-gradient(to right, var(--color21) 0%, var(--color22) 100%);
+            }
+        }
+
+
+        &-content{
+            color: var(--color5);
+            width: 100%;
+        }
+
+        &-content h1{
+            font-size: 4rem;
+            background-color: var(--color17);
+            background-image: linear-gradient(to top, var(--color18) 0%, var(--color19) 100%);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+            text-transform: uppercase;
+            padding-right: 10px;
+
+            margin-top: 32px;
+            font-weight: 900;
+        }
+
+        &-content p{
+            margin-top: 1rem;
+            padding-right: 20px;
+            font-size: 2.5rem;
+            font-weight: 500;
+            text-align: left;
+
+            em{
+                color: #833ab4;
+            }
+            
+        }
+    }
+}
+
+#card_4{
+    background-image: linear-gradient(to right, var(--color2) 0%, var(--color23) 90%);
+
 }
