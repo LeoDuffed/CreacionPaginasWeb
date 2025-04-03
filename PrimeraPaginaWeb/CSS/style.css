@@ -741,4 +741,51 @@ html {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   font-weight: 700;
+}
+
+.informes2 h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--color5);
+  padding-bottom: 5rem;
+}
+
+.informes2 {
+  background-color: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 5rem 0;
+}
+.informes2-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.informes2-wrapper-card p {
+  text-align: left;
+  padding: 0 2rem;
+  font-size: 2.5rem;
+  color: var(--color5);
+  font-weight: 500;
+  justify-content: center;
+}
+.informes2-wrapper-card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease;
+}
+.informes2-wrapper-card {
+  margin: 10px;
+  height: 355px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color5);
+  background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+  transition: 0.3s ease-in;
 }/*# sourceMappingURL=style.css.map */
