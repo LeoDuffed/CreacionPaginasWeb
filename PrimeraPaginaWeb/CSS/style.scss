@@ -1195,3 +1195,90 @@ html{
     cursor: pointer;
 }
   
+
+
+// Pagina Servicios
+
+.servicios1{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding: 180px 0;
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 30px;
+
+        &-heading{
+            font-size: 10rem;
+            font-weight: 700;
+            margin: 5rem auto;
+            background: var(--color13);
+            background: -webkit-linear-gradient(to right, var(--color14), var(--color13));
+            background: linear-gradient(to right, var(--color16), var(--color13));
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;       
+        }
+
+        &-description em{
+            color: #d81271;
+        }
+
+        &-description{
+            font-size: 3rem;
+            font-weight: 500;
+            color: var(--color5);
+        }
+    }
+
+}
+
+.servicios2{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 5rem;
+    color: var(--color5);
+    font-weight: 700;
+
+    &-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        &-card p{
+            text-align: center;
+            margin-top: 24px;
+            padding-right: 5px;
+            padding-left: 5px;
+            font-size: 2.5rem;
+        }
+
+        &-card{
+            margin: 10px;
+            height: auto;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: var(--color5);
+            background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+        }
+    }
+
+}
