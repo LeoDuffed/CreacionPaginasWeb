@@ -503,7 +503,7 @@ html{
             margin-top: 24px;
             padding-right: 5px;
             padding-left: 5px;
-            font-size: 2rem;
+            font-size: 2.4rem;
 
         }
 
@@ -515,6 +515,7 @@ html{
             border-radius: 4px;
             background: var(--color11);
             font-size: 1.6rem;
+            text-decoration: none;
         }
 
         &-card button:hover{
@@ -566,6 +567,12 @@ html{
 .services-wrapper-card:nth-child(4){
     background-image: linear-gradient(to right, var(--color3) 0%, var(--color24) 90%);
 
+}
+
+.boton_servicios{
+    text-decoration: none;
+    color:var(--color5);
+    font-size: 2rem;
 }
 
 
