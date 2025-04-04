@@ -25,6 +25,7 @@
   --color24: #d5723d;
   --color25: #e9e9e9;
   --color26: #2a6ee3;
+  --color27: #b311b5;
 }
 
 * {
@@ -1044,12 +1045,13 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px 0;
   font-size: 5rem;
   color: var(--color5);
   font-weight: 700;
+  padding: 100px 0px;
 }
 .servicios2-wrapper {
+  padding-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -1060,15 +1062,29 @@ html {
   padding-right: 5px;
   padding-left: 5px;
   font-size: 2.5rem;
+  padding-bottom: 15px;
 }
 .servicios2-wrapper-card {
   margin: 10px;
-  height: auto;
+  height: 10rem;
+  padding-bottom: 10px;
   padding: 5px 10px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: var(--color5);
-  background-image: linear-gradient(to right, var(--color9) 0%, var(--color13) 90%);
+  background-image: linear-gradient(to right, var(--color27) 0%, var(--color13) 90%);
+}
+
+.servicios2-wrapper-card:nth-child(2) {
+  background-image: linear-gradient(to right, var(--color13) 0%, var(--color6) 90%);
+}
+
+.servicios2-wrapper-card:nth-child(4) {
+  background-image: linear-gradient(to right, var(--color13) 0%, var(--color6) 90%);
+}
+
+.servicios2-wrapper-card:nth-child(6) {
+  background-image: linear-gradient(to right, var(--color13) 0%, var(--color6) 90%);
 }/*# sourceMappingURL=style.css.map */
