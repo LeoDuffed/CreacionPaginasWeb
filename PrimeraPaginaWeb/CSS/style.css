@@ -1088,4 +1088,109 @@ html {
 
 .servicios2-wrapper-card:nth-child(6) {
   background-image: linear-gradient(to right, var(--color13) 0%, var(--color6) 90%);
+}
+
+.paletas {
+  background-color: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  color: var(--color5);
+  font-weight: 700;
+  padding: 100px 50px;
+}
+.paletas-container {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.paletas-container-color1 {
+  margin: 10px;
+  margin-bottom: 3rem;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color3);
+}
+.paletas-container-color2 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color17);
+}
+.paletas-container-color3 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color20);
+}
+.paletas-container-color4 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color12);
+}
+.paletas-container-color5 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color23);
+}
+.paletas-container-color6 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color2);
+}
+.paletas-container-color7 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color24);
+}
+.paletas-container-color8 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color7);
+}
+.paletas-container-color9 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color14);
+}
+.paletas-container-color10 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color15);
+}
+.paletas-container-color11 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color21);
+}
+.paletas-container-color12 {
+  margin: 10px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 5px;
+  background-color: var(--color26);
 }/*# sourceMappingURL=style.css.map */

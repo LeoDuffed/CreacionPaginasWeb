@@ -1136,6 +1136,7 @@ html{
     background-color: var(--color1);
     background: linear-gradient(to right, var(--color11), var(--color10));
 }
+
 .signin{
     background-color: var(--color1);
     background: linear-gradient(to right, var(--color11), var(--color10));
@@ -1157,8 +1158,7 @@ html{
         margin-bottom: 1.5rem;
       }
 }
-
-  
+ 
     .signin-form {
       display: flex;
       flex-direction: column;
@@ -1169,7 +1169,6 @@ html{
         border: 1px solid var(--color25);
         border-radius: 5px;
       }
-  
   
       .signin-extra {
         margin-top: 1rem;
@@ -1303,4 +1302,131 @@ html{
 .servicios2-wrapper-card:nth-child(6){
     background-image: linear-gradient(to right, var(--color13) 0%, var(--color6) 90%);
     
+}
+
+.paletas{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    color: var(--color5);
+    font-weight: 700;
+    padding: 100px 50px;
+
+    &-container{
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        &-color1{
+            margin: 10px;
+            margin-bottom: 3rem;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color3);
+        }
+
+        &-color2{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color17);
+        }
+
+        &-color3{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color20);
+
+        }
+
+        &-color4{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color12);
+
+        }
+
+        &-color5{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color23);
+
+        }
+
+        &-color6{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color2);
+
+        }
+
+        &-color7{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color24);
+
+        }
+
+        &-color8{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color7);
+
+        }
+
+        &-color9{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color14);
+        }
+
+        &-color10{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color15);
+
+        }
+
+        &-color11{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color21);
+        }
+
+        &-color12{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            background-color: var(--color26);
+
+        }
+
+    }   
 }
