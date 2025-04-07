@@ -1139,22 +1139,25 @@ html{
 .signin{
     background-color: var(--color1);
     background: linear-gradient(to right, var(--color11), var(--color10));
-    align-items: center;
     flex-direction: column;
-    padding: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+
+    &-container {
+        max-width: 400px;
+        margin: 100px auto;
+        padding: 2rem;
+        background: var(--color5);
+        border-radius: 10px;
+        text-align: center;
+
+    &-container  h1 {
+        margin-bottom: 1.5rem;
+      }
 }
 
-.signin-container {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 2rem;
-    background: var(--color5);
-    border-radius: 10px;
-    text-align: center;
-  
-    h1 {
-      margin-bottom: 1.5rem;
-    }
   
     .signin-form {
       display: flex;

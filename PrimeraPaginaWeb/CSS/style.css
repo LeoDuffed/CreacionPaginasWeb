@@ -949,11 +949,12 @@ html {
 .signin {
   background-color: var(--color1);
   background: linear-gradient(to right, var(--color11), var(--color10));
-  align-items: center;
   flex-direction: column;
-  padding: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
 }
-
 .signin-container {
   max-width: 400px;
   margin: 100px auto;
@@ -962,20 +963,20 @@ html {
   border-radius: 10px;
   text-align: center;
 }
-.signin-container h1 {
+.signin-container-container h1 {
   margin-bottom: 1.5rem;
 }
-.signin-container .signin-form {
+.signin .signin-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.signin-container .signin-form input {
+.signin .signin-form input {
   padding: 0.75rem;
   border: 1px solid var(--color25);
   border-radius: 5px;
 }
-.signin-container .signin-form .signin-extra {
+.signin .signin-form .signin-extra {
   margin-top: 1rem;
   font-size: 0.9rem;
 }
