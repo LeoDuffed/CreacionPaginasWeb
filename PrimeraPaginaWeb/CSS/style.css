@@ -1113,6 +1113,10 @@ html {
   margin: 10px;
   margin-bottom: 3rem;
   height: 25rem;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   width: 25rem;
   border-radius: 5px;
   background-color: var(--color3);
@@ -1122,6 +1126,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color17);
 }
 .paletas-container-color3 {
@@ -1129,6 +1137,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color20);
 }
 .paletas-container-color4 {
@@ -1136,6 +1148,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color12);
 }
 .paletas-container-color5 {
@@ -1143,6 +1159,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color23);
 }
 .paletas-container-color6 {
@@ -1150,6 +1170,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color2);
 }
 .paletas-container-color7 {
@@ -1157,6 +1181,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color24);
 }
 .paletas-container-color8 {
@@ -1164,6 +1192,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color7);
 }
 .paletas-container-color9 {
@@ -1171,6 +1203,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color14);
 }
 .paletas-container-color10 {
@@ -1178,6 +1214,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color15);
 }
 .paletas-container-color11 {
@@ -1185,6 +1225,10 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color21);
 }
 .paletas-container-color12 {
@@ -1192,5 +1236,9 @@ html {
   height: 25rem;
   width: 25rem;
   border-radius: 5px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 3rem;
   background-color: var(--color26);
 }/*# sourceMappingURL=style.css.map */
