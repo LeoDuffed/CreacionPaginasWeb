@@ -1274,11 +1274,16 @@ html {
   grid-template-rows: 1fr 1fr;
 }
 .beneficios-container-content-card1 {
-  padding-bottom: 40px;
+  text-align: left;
   justify-content: left;
+  align-items: normal;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .beneficios-container-content-card2 {
+  text-align: left;
   justify-content: left;
+  align-items: normal;
 }
 .beneficios-container-img {
   text-align: center;
@@ -1294,7 +1299,7 @@ html {
   color: var(--color5);
 }
 
-.beneficios2 {
+.beneficios {
   background-color: var(--color1);
   background: linear-gradient(to right, var(--color11), var(--color10));
   display: flex;
@@ -1306,7 +1311,7 @@ html {
   color: var(--color5);
   font-weight: 700;
 }
-.beneficios2-container {
+.beneficios-container2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -1318,15 +1323,25 @@ html {
   max-width: 1300px;
   padding: 0 50px;
 }
-.beneficios2-container-content {
+.beneficios-container2-content {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
 }
-.beneficios2-container-img {
+.beneficios-container2-content-card3 {
+  text-align: left;
+  justify-content: left;
+  align-items: normal;
+}
+.beneficios-container2-content-card4 {
+  text-align: left;
+  justify-content: left;
+  align-items: normal;
+}
+.beneficios-container2-img {
   text-align: center;
 }
-.beneficios2-container-img-card {
+.beneficios-container2-img-card {
   margin: 10px;
   height: 500px;
   width: 500px;

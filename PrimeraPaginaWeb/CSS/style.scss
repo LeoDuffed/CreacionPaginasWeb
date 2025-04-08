@@ -1510,12 +1510,17 @@ html{
             grid-template-rows: 1fr 1fr;
 
             &-card1{
-                padding-bottom: 40px;
+                text-align: left;
                 justify-content: left;
+                align-items:normal;
+                padding-top: 10rem;
+                padding-bottom: 10rem;
             }
 
             &-card2{
+                text-align: left;
                 justify-content: left;
+                align-items:normal;            
             }
         }
 
@@ -1536,7 +1541,7 @@ html{
     }
 }
 
-.beneficios2{
+.beneficios{
     background-color: var(--color1);
     background: linear-gradient(to right, var(--color11), var(--color10));
     display: flex;
@@ -1548,7 +1553,7 @@ html{
     color: var(--color5);
     font-weight: 700;
 
-    &-container{
+    &-container2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items:center ;
@@ -1565,7 +1570,18 @@ html{
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
 
-            &-card1{
+            &-card3{
+
+                text-align: left;
+                justify-content: left;
+                align-items:normal;
+
+            }
+
+            &-card4{
+                text-align: left;
+                justify-content: left;
+                align-items:normal;
             }
         }
 
