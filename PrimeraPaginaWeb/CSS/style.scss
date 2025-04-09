@@ -1648,8 +1648,33 @@ html{
     cursor: pointer;
 }
 
-  //-----------------------------------------------------
-  // Colores de las card de sign in 
+//---------------------------------------------------------------------
+// Pagina de explorar 
+// explorar.html
+
+.serviciosHero{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding-top: 200px;
+    padding: 180px 100px;
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+
+
+//-----------------------------------------------------
+// Colores de las card de sign in 
   
 // Color de la card de sign in en Index.html
 #card_2{

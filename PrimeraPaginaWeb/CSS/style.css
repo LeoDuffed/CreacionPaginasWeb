@@ -1386,6 +1386,24 @@ html {
   cursor: pointer;
 }
 
+.serviciosHero {
+  background-color: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
+  padding-top: 200px;
+  padding: 180px 100px;
+}
+.serviciosHero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
 #card_2 {
   background: var(--color17);
   background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
