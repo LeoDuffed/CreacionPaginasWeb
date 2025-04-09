@@ -26,6 +26,10 @@
     --color25: #e9e9e9;
     --color26: #2a6ee3;
     --color27: #b311b5;
+    --color28: #aed567;
+    --color29: #62955a;
+    --color30: #458e7a;
+    --color31: #69ba8b;
 }
 
 * {
@@ -1440,6 +1444,7 @@ html{
             margin: 10px;
             height: 25rem;
             width: 25rem;
+            margin-bottom: 3rem;
             border-radius: 5px;
             justify-content: center;
             flex-direction: column;
@@ -1471,7 +1476,51 @@ html{
             display: flex;
             font-size: 3rem;
             background-color: var(--color26);
+        }
 
+        &-color13{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+            font-size: 3rem;
+            background-color: var(--color28);
+        }
+        &-color14{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+            font-size: 3rem;
+            background-color: var(--color29);
+        }
+        &-color15{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+            font-size: 3rem;
+            background-color: var(--color30);
+        }
+        &-color16{
+            margin: 10px;
+            height: 25rem;
+            width: 25rem;
+            border-radius: 5px;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+            font-size: 3rem;
+            background-color: var(--color31);
         }
 
     }   
@@ -1616,4 +1665,8 @@ html{
 // Color de la card de sign in en Servicios.html
 #card_5{
     background-image: linear-gradient(to right, var(--color14) 2.8rem, var(--color26) 100%);
+}
+// Color de la card de sign in en Explorar.html
+#card_6{
+    background-image: linear-gradient(to right, var(--color2) 2.8rem, var(--color24) 100%);
 }
