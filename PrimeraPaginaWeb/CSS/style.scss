@@ -47,6 +47,9 @@ html{
     font-size: 62.5%;
 }
 
+// ------------------------------------------------------
+// Index.html
+
 // Nav bar section
 
 .navbar{
@@ -236,7 +239,7 @@ html{
     }
 }
 
-// Hero Section
+// Seccion Hero Index.html
 
 .hero{
     background: var(--color1);
@@ -309,7 +312,7 @@ html{
     }
 }
 
-// About section
+// Seccion de About index.html
 
 .main{
     background-color: var(--color1);
@@ -475,7 +478,7 @@ html{
     }
 }
 
-// Services section
+// Seccion de Servicios Index.html 
 
 .services{
     background-color: var(--color1);
@@ -600,7 +603,7 @@ html{
     }
 }
 
-// Feauters section
+// Seccion de Sign in Index.html
 
 #card_2{
     background: var(--color17);
@@ -620,7 +623,7 @@ html{
     }
 }
 
-// Footer
+// Seccion de Footer Index.html
 
 .footerContainer{
     background-color: var(--color1);
@@ -833,8 +836,11 @@ html{
 
 }
 
-
+// ----------------------------------------------------------
 // Pagina nueva de informes 
+// Informes.html
+
+// Seccion Header informes.html
 
 .informesHeader{
     background-color: var(--color1);
@@ -888,6 +894,8 @@ html{
         }
     }
 }
+
+// Seccion de Informes1 informes.html
 
 .informes{
 
@@ -1032,7 +1040,7 @@ html{
     font-weight: 700;
 }
 
-// Informes 2 con card
+// Seccion de Informes 2 Index.html
 
 .informes2 h1{
     font-size: 5rem;
@@ -1104,7 +1112,7 @@ html{
 }
 
 
-// Informacion 3
+// Seccion de informacion 3 Informes.html
 
 
 .informes3{
@@ -1183,8 +1191,9 @@ html{
 
 }
 
-
+// ---------------------------------------------------
 // Pagina de Sign in
+// Sig_in.html
 
 .page_signin{
     background-color: var(--color1);
@@ -1253,8 +1262,11 @@ html{
 }
   
 
-
+// ---------------------------------------------------------------  
 // Pagina Servicios
+
+
+// Seccion de Servicios 1 Servicios.html
 
 .servicios1{
     background-color: var(--color1);
@@ -1298,6 +1310,8 @@ html{
     }
 
 }
+
+// Seccion de Servicios 2 Servicios.html
 
 .servicios2 h1{
     background: var(--color13);
@@ -1369,6 +1383,7 @@ html{
     
 }
 
+// Seccion de Paletas Exitosas Servicios.html
 
 .paletas{
     background-color: var(--color1);
@@ -1545,7 +1560,7 @@ html{
     }   
 }
 
-// Beneficios
+// Seccon de Beneficios Servicos.html
 
 .beneficios {
     background: linear-gradient(to right, var(--color11), var(--color10));
@@ -1596,7 +1611,7 @@ html{
     }
   }
   
-
+// Color de la card de sign in en Servicios.html
 #card_5{
     background-image: linear-gradient(to right, var(--color14) 2.8rem, var(--color26) 100%);
 
