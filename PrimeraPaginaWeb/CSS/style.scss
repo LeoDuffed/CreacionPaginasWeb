@@ -605,12 +605,6 @@ html{
 
 // Seccion de Sign in Index.html
 
-#card_2{
-    background: var(--color17);
-    background: -webkit-linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
-    background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
-}
-
 #sign-up2{
     display: block;
     margin-top: 3rem;
@@ -1106,12 +1100,6 @@ html{
 
 }
 
-#card_3{
-    background-image: linear-gradient(to right, var(--color26) 0%, var(--color21) 100%);
-
-}
-
-
 // Seccion de informacion 3 Informes.html
 
 
@@ -1186,81 +1174,10 @@ html{
     }
 }
 
+ // Color de la card en informes 3
 #card_4{
     background-image: linear-gradient(to right, var(--color2) 0%, var(--color23) 90%);
-
-}
-
-// ---------------------------------------------------
-// Pagina de Sign in
-// Sig_in.html
-
-.page_signin{
-    background-color: var(--color1);
-    background: linear-gradient(to right, var(--color11), var(--color10));
-}
-
-.signin{
-    background-color: var(--color1);
-    background: linear-gradient(to right, var(--color11), var(--color10));
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 10rem 0;
-
-    &-container {
-        max-width: 400px;
-        margin: 100px auto;
-        padding: 2rem;
-        background: var(--color5);
-        border-radius: 10px;
-        text-align: center;
-
-    &-container  h1 {
-        margin-bottom: 1.5rem;
-      }
-}
- 
-    .signin-form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-  
-      input {
-        padding: 0.75rem;
-        border: 1px solid var(--color25);
-        border-radius: 5px;
-      }
-  
-      .signin-extra {
-        margin-top: 1rem;
-        font-size: 0.9rem;
-      }
-    }
-  }
-
-#login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 20px 20px;
-    height: 100%;
-    width: 100%;
-    border: none;
-    font-weight: 700;
-    outline: none;
-    font-size: 2rem;
-    border-radius: 4px;
-    background: var(--color6);
-    background: -webkit-linear-gradient(to right, var(--color7), var(--color8), var(--color6));
-    background: linear-gradient(to right, var(--color7), var(--color8), var(--color6));
-    color: var(--color5);
-    transition: all 0.3s;
-    cursor: pointer;
-}
-  
+}  
 
 // ---------------------------------------------------------------  
 // Pagina Servicios
@@ -1610,9 +1527,93 @@ html{
       }
     }
   }
+
+
+  // ---------------------------------------------------
+// Pagina de Sign in
+// Sig_in.html
+
+.page_signin{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+}
+
+.signin{
+    background-color: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+
+    &-container {
+        max-width: 400px;
+        margin: 100px auto;
+        padding: 2rem;
+        background: var(--color5);
+        border-radius: 10px;
+        text-align: center;
+
+    &-container  h1 {
+        margin-bottom: 1.5rem;
+      }
+}
+ 
+    .signin-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
   
+      input {
+        padding: 0.75rem;
+        border: 1px solid var(--color25);
+        border-radius: 5px;
+      }
+  
+      .signin-extra {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 4px;
+    background: var(--color6);
+    background: -webkit-linear-gradient(to right, var(--color7), var(--color8), var(--color6));
+    background: linear-gradient(to right, var(--color7), var(--color8), var(--color6));
+    color: var(--color5);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+  //-----------------------------------------------------
+  // Colores de las card de sign in 
+  
+// Color de la card de sign in en Index.html
+#card_2{
+    background: var(--color17);
+    background: -webkit-linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
+    background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
+}
+// Color de la card de sign in en Informacion.html
+#card_3{
+    background-image: linear-gradient(to right, var(--color26) 0%, var(--color21) 100%);
+
+}
 // Color de la card de sign in en Servicios.html
 #card_5{
     background-image: linear-gradient(to right, var(--color14) 2.8rem, var(--color26) 100%);
-
 }
