@@ -1510,6 +1510,7 @@ html{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent; 
+    margin-bottom: 50px;
 }
 
 .beneficios{
@@ -1528,7 +1529,8 @@ html{
 
     &-container{
         display: grid;
-        margin-top: 5rem;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
         grid-template-columns: 1fr 1fr;
         align-items:center ;
         justify-content: center;
