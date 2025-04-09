@@ -694,6 +694,54 @@ html {
     margin-bottom: 2rem;
   }
 }
+.informesHeader {
+  background-color: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
+  padding-top: 200px;
+  padding: 180px 100px;
+}
+.informesHeader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+.informesHeader-container-description {
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: var(--color5);
+  background: var(--color13);
+  background: linear-gradient(to right, var(--color8), var(--color18));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.informesHeader-container-heading p {
+  font-size: 8rem;
+  font-weight: 700;
+  color: var(--color5);
+  background: var(--color13);
+  background: linear-gradient(to right, var(--color8), var(--color23), var(--color7));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.informesHeader-container-heading {
+  font-size: 8rem;
+  font-weight: 700;
+  margin: 5rem auto;
+  color: var(--color5);
+}
+
 .informes {
   background: var(--color1);
   background: linear-gradient(to right, var(--color11), var(--color10));
@@ -712,13 +760,14 @@ html {
 }
 .informes-container-heading {
   background: var(--color6);
-  background: linear-gradient(to right, var(--color7), var(--color8), var(--color12));
+  background: linear-gradient(to right, var(--color27), var(--color9), var(--color15));
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-size: 9rem;
+  font-size: 8rem;
+  font-weight: 700;
   margin: 60px 10px;
   text-align: center;
 }
@@ -1022,7 +1071,7 @@ html {
   font-weight: 700;
   margin: 5rem auto;
   background: var(--color13);
-  background: linear-gradient(to right, var(--color16), var(--color13));
+  background: linear-gradient(to right, var(--color12), var(--color20));
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -1099,16 +1148,6 @@ html {
 
 .servicios2-wrapper-card:nth-child(6) {
   background-image: linear-gradient(to right, var(--color13) 0%, var(--color6) 90%);
-}
-
-.paletas h1 {
-  background: var(--color13);
-  background: linear-gradient(to right, var(--color23), var(--color2));
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .paletas {
@@ -1264,127 +1303,47 @@ html {
   background-color: var(--color26);
 }
 
-.beneficios h1 {
-  background: var(--color13);
-  background: linear-gradient(to right, var(--color23), var(--color7));
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 50px;
-}
-
 .beneficios {
-  background-color: var(--color1);
   background: linear-gradient(to right, var(--color11), var(--color10));
-  display: flex;
-  padding: 10rem 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 8rem 2rem;
   text-align: center;
-  font-size: 4.5rem;
-  color: var(--color5);
+}
+.beneficios h1 {
+  font-size: 7rem;
   font-weight: 700;
+  background: linear-gradient(to right, var(--color23), var(--color7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 7rem;
 }
-.beneficios-container {
+.beneficios-grid {
   display: grid;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  height: 90%;
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
-  padding: 0 50px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.beneficios-container-content {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  background-image: linear-gradient(to right, var(--color24) 50%, var(--color7) 100%);
-  height: 440px;
-  width: 620px;
-  border-radius: 40px;
-  margin-left: 20px;
-  padding-left: 30px;
-  margin-right: 20px;
-}
-.beneficios-container-content-card1 {
-  text-align: left;
-  justify-content: left;
-  align-items: normal;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-.beneficios-container-content-card2 {
-  text-align: left;
-  justify-content: left;
-  align-items: normal;
-  margin-top: 3rem;
-}
-.beneficios-container-img {
-  text-align: center;
-}
-.beneficios-container-img-card {
-  margin-top: -70px;
-  margin-left: 40px;
-  height: 500px;
-  width: 500px;
-  border-radius: 10px;
+.beneficios .beneficio-card {
+  background: linear-gradient(to right, var(--color24), var(--color7));
+  border-radius: 25px;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  color: var(--color5);
-}
-
-.beneficios-container2 {
-  display: grid;
-  margin-top: -40px;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: center;
-  height: 90%;
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
-  padding: 0 50px;
-}
-.beneficios-container2-content {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  background-image: linear-gradient(to right, var(--color7) 10%, var(--color24) 100%);
-  height: 400px;
-  border-radius: 40px;
-  margin-left: 60px;
-  padding: 50px 30px;
-}
-.beneficios-container2-content-card3 {
-  text-align: left;
-  justify-content: left;
-  align-items: normal;
-}
-.beneficios-container2-content-card4 {
-  text-align: left;
-  justify-content: left;
-  align-items: normal;
-}
-.beneficios-container2-img {
-  text-align: center;
-}
-.beneficios-container2-img-card {
-  height: 500px;
-  width: 500px;
-  border-radius: 10px;
-  display: flex;
-  margin-left: 50px;
-  flex-direction: column;
-  justify-content: center;
   color: var(--color5);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.beneficios .beneficio-card:hover {
+  transform: translateY(-10px);
+}
+.beneficios .beneficio-card i {
+  font-size: 80px;
+  margin-bottom: 1.5rem;
+}
+.beneficios .beneficio-card p {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 #card_5 {
