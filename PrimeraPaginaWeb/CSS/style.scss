@@ -1652,6 +1652,8 @@ html{
 // Pagina de explorar 
 // explorar.html
 
+
+// Seccion de Hero en explorar.html
 .serviciosHero{
     background-color: var(--color1);
     background: linear-gradient(to right, var(--color11), var(--color10));
@@ -1668,10 +1670,127 @@ html{
         height: 90%;
         text-align: center;
         padding: 30px;
+
+        &-heading em{
+            color:var(--color27)
+        }
+
+        &-heading{
+            font-size: 7rem;
+            font-weight: 700;
+            margin: 5rem auto;
+            color:var(--color5);
+        }
+
+        &-description{
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: var(--color5);
+            background: var(--color13);
+            background: -webkit-linear-gradient(to right, var(--color13), var(--color14));
+            background: linear-gradient(to right, var(--color13), var(--color14));
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;   
+        }
     }
 }
 
+// Seccion de Ejemplos 1 en explorar.html
 
+.ejemplos h1{
+    background: var(--color6);
+    background: -webkit-linear-gradient(to right, var(--color27), var(--color9), var(--color15));
+    background: linear-gradient(to right, var(--color27), var(--color9), var(--color15));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.ejemplos{
+    background: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding: 50px 0;
+    padding-bottom: 4rem;
+
+    &-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 150px;
+
+        &-content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            margin-right: 20px;
+            padding: 10px;
+            background-color: var(--color25);
+
+            &-color1{
+                background-color: var(--color2);
+                border-radius: 10px;
+                height: 180;
+                width: 180;
+                margin-right: 5px;
+                margin-bottom: 5px;
+            }
+            &-color2{
+                background-color: var(--color3);
+                border-radius: 10px;
+                height: 180;
+                width: 180;
+                margin-bottom: 5px;
+                margin-left: 5px;
+
+            }
+            &-color3{
+                background-color: var(--color23);
+                border-radius: 10px;
+                height: 180;
+                width: 180;
+                margin-top: 5px;
+                margin-right: 3px;
+            }
+            &-color4{
+                background-color: var(--color23);
+                border-radius: 10px;
+                height: 180;
+                width: 180;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+
+        }
+
+        &-ejemploFinal{
+            height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center ;
+            background-color: var(--color25);
+            margin-left: 20px;
+        }
+    }
+}
 
 //-----------------------------------------------------
 // Colores de las card de sign in 
