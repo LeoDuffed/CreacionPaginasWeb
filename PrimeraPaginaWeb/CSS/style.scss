@@ -30,6 +30,11 @@
     --color29: #62955a;
     --color30: #458e7a;
     --color31: #69ba8b;
+    --color32: #581845;
+    --color33: #900C3F;
+    --color34: #C70039;
+    --color35: #FF5733 ;
+
 }
 
 * {
@@ -1709,10 +1714,11 @@ html{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-size: 8rem;
+    font-size: 10rem;
     font-weight: 700;
-    margin: 80px auto;
+    margin: 100px auto;
     text-align: center;
+    justify-content: center;
 }
 
 .ejemplos{
@@ -1724,7 +1730,6 @@ html{
     &-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items:center;
         justify-content: space-evenly;
         margin: 0 auto;
         z-index: 1;
@@ -1744,7 +1749,7 @@ html{
             background-color: var(--color25);
 
             &-color1{
-                background-color: var(--color2);
+                background-color: var(--color32);
                 border-radius: 10px;
                 height: 180;
                 width: 180;
@@ -1752,7 +1757,7 @@ html{
                 margin-bottom: 5px;
             }
             &-color2{
-                background-color: var(--color3);
+                background-color: var(--color33);
                 border-radius: 10px;
                 height: 180;
                 width: 180;
@@ -1761,7 +1766,7 @@ html{
 
             }
             &-color3{
-                background-color: var(--color23);
+                background-color: var(--color34);
                 border-radius: 10px;
                 height: 180;
                 width: 180;
@@ -1769,7 +1774,7 @@ html{
                 margin-right: 3px;
             }
             &-color4{
-                background-color: var(--color23);
+                background-color: var(--color35);
                 border-radius: 10px;
                 height: 180;
                 width: 180;
@@ -1783,11 +1788,20 @@ html{
             height: 400px;
             width: 400px;
             border-radius: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center ;
+            margin-right: 20px;
+            padding: 10px;
             background-color: var(--color25);
-            margin-left: 20px;
+
+            &-muestra{
+                height: 100%;
+                width:100%;
+                border-radius: 20px;
+
+                background: linear-gradient(to right, var(--color32), var(--color33), var(--color34),var(--color35));
+
+
+
+            }
         }
     }
 }
