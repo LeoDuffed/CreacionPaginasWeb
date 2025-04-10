@@ -39,6 +39,10 @@
   --color38: #364b7c;
   --color39: #816cb0;
   --color40: #d78de4;
+  --color41: #6c2c5a;
+  --color42: #9a355e;
+  --color43: #db4b6b;
+  --color44: #ff8080;
 }
 
 * {
@@ -1541,6 +1545,38 @@ html {
   margin-top: 5px;
   margin-left: 5px;
 }
+.ejemplos-container-content-color9 {
+  background-color: var(--color41);
+  border-radius: 10px;
+  height: 180;
+  width: 180;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.ejemplos-container-content-color10 {
+  background-color: var(--color42);
+  border-radius: 10px;
+  height: 180;
+  width: 180;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.ejemplos-container-content-color11 {
+  background-color: var(--color43);
+  border-radius: 10px;
+  height: 180;
+  width: 180;
+  margin-top: 5px;
+  margin-right: 3px;
+}
+.ejemplos-container-content-color12 {
+  background-color: var(--color44);
+  border-radius: 10px;
+  height: 180;
+  width: 180;
+  margin-top: 5px;
+  margin-left: 5px;
+}
 .ejemplos-container-ejemploFinal {
   height: 400px;
   width: 400px;
@@ -1559,6 +1595,12 @@ html {
   width: 100%;
   border-radius: 20px;
   background: linear-gradient(to right, var(--color37), var(--color38), var(--color39), var(--color40));
+}
+.ejemplos-container-ejemploFinal-muestra3 {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background: linear-gradient(to right, var(--color41), var(--color42), var(--color43), var(--color44));
 }
 
 .ejemplos2 h1 {
