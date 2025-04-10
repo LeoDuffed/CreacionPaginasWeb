@@ -1459,7 +1459,8 @@ html {
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 150px;
+  padding-left: 280px;
+  padding: 0 200px;
   margin-bottom: 100px;
 }
 .ejemplos-container-content {
@@ -1469,7 +1470,6 @@ html {
   height: 400px;
   width: 400px;
   border-radius: 20px;
-  margin-right: 20px;
   padding: 10px;
   background-color: var(--color25);
 }
@@ -1509,7 +1509,6 @@ html {
   height: 400px;
   width: 400px;
   border-radius: 20px;
-  margin-right: 20px;
   padding: 10px;
   background-color: var(--color25);
 }
@@ -1518,6 +1517,54 @@ html {
   width: 100%;
   border-radius: 20px;
   background: linear-gradient(to right, var(--color32), var(--color33), var(--color34), var(--color35));
+}
+
+.ejemplos2 h1 {
+  background: var(--color6);
+  background: linear-gradient(to right, var(--color27), var(--color9), var(--color15));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 8rem;
+  font-weight: 700;
+  margin: 100px auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.ejemplos2 p {
+  padding: 0 150px;
+  color: var(--color5);
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.ejemplos2 {
+  background: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
+  padding: 50px 0;
+  padding-bottom: 4rem;
+}
+.ejemplos2-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 150px;
+  margin-bottom: 100px;
+}
+.ejemplos2-container-img1 {
+  margin-right: 10px;
+}
+.ejemplos2-container-img2 {
+  margin-left: 20px;
 }
 
 #card_2 {
