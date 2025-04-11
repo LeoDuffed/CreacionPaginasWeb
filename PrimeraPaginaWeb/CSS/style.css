@@ -1712,17 +1712,6 @@ html {
   color: var(--color5);
 }
 
-/*
-#palette{
-    background-image: linear-gradient(to right, var(--color45) 0%, var(--color46) 100%);
-}
-#tune{
-    background-image: linear-gradient(to right, var(--color46) 0%, var(--color47) 100%);
-}
-#download{
-    background-image: linear-gradient(to right, var(--color47) 0%, var(--color48) 100%);
-}
-    */
 #card_2 {
   background: var(--color17);
   background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
