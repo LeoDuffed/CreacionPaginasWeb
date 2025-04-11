@@ -1947,8 +1947,75 @@ html{
             margin-left: 20px;
         }
     }
-
 }
+
+// Seccion de Como Funciona en explorar.html
+
+.como-funciona {
+    text-align: center;
+    background: var(--color1);
+    background: linear-gradient(to right, var(--color11), var(--color10));
+    padding: 15rem 2rem;
+  
+    h1 {
+      font-size: 7rem;
+      margin-bottom:50px;
+      background: var(--color6);
+      background: -webkit-linear-gradient(to right, var(--color27), var(--color9), var(--color15));
+      background: linear-gradient(to right, var(--color27), var(--color9), var(--color15));
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;    
+    }
+  
+    p {
+      font-size: 3rem;
+      color: var(--color5);
+      margin-bottom: 100px;
+    }
+  
+    .pasos {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+  
+      .paso {
+        background: var(--color5);
+        padding: 8rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        height: 300px;
+        justify-content: center;
+        width: 400px;
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-5px);
+        }
+  
+        span {
+          font-size: 50px;
+          color: var(--color14);
+          margin-bottom: 1rem;
+          display: block;
+        }
+  
+        h2 {
+          font-size: 2.3rem;
+          margin-bottom: 0.5rem;
+        }
+  
+        p {
+          font-size: 1.5rem;
+          color: var(--color11);
+        }
+      }
+    }
+  }
+  
 
 //-----------------------------------------------------
 // Colores de las card de sign in 

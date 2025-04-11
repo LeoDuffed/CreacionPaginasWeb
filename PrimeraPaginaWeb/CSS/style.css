@@ -1651,6 +1651,62 @@ html {
   margin-left: 20px;
 }
 
+.como-funciona {
+  text-align: center;
+  background: var(--color1);
+  background: linear-gradient(to right, var(--color11), var(--color10));
+  padding: 15rem 2rem;
+}
+.como-funciona h1 {
+  font-size: 7rem;
+  margin-bottom: 50px;
+  background: var(--color6);
+  background: linear-gradient(to right, var(--color27), var(--color9), var(--color15));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.como-funciona p {
+  font-size: 3rem;
+  color: var(--color5);
+  margin-bottom: 100px;
+}
+.como-funciona .pasos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.como-funciona .pasos .paso {
+  background: var(--color5);
+  padding: 8rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  justify-content: center;
+  width: 400px;
+  transition: transform 0.3s ease;
+}
+.como-funciona .pasos .paso:hover {
+  transform: translateY(-5px);
+}
+.como-funciona .pasos .paso span {
+  font-size: 50px;
+  color: var(--color14);
+  margin-bottom: 1rem;
+  display: block;
+}
+.como-funciona .pasos .paso h2 {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+.como-funciona .pasos .paso p {
+  font-size: 1.5rem;
+  color: var(--color11);
+}
+
 #card_2 {
   background: var(--color17);
   background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
