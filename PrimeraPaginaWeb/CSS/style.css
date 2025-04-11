@@ -43,6 +43,10 @@
   --color42: #9a355e;
   --color43: #db4b6b;
   --color44: #ff8080;
+  --color45: #89304b;
+  --color46: #853055;
+  --color47: #bb4566;
+  --color48: #ff6879;
 }
 
 * {
@@ -1680,7 +1684,7 @@ html {
   flex-wrap: wrap;
 }
 .como-funciona .pasos .paso {
-  background: var(--color5);
+  background: var(--color47);
   padding: 8rem;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -1694,19 +1698,31 @@ html {
 }
 .como-funciona .pasos .paso span {
   font-size: 50px;
-  color: var(--color14);
+  color: var(--color32);
   margin-bottom: 1rem;
   display: block;
 }
 .como-funciona .pasos .paso h2 {
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
+  color: var(--color5);
 }
 .como-funciona .pasos .paso p {
   font-size: 1.5rem;
-  color: var(--color11);
+  color: var(--color5);
 }
 
+/*
+#palette{
+    background-image: linear-gradient(to right, var(--color45) 0%, var(--color46) 100%);
+}
+#tune{
+    background-image: linear-gradient(to right, var(--color46) 0%, var(--color47) 100%);
+}
+#download{
+    background-image: linear-gradient(to right, var(--color47) 0%, var(--color48) 100%);
+}
+    */
 #card_2 {
   background: var(--color17);
   background: linear-gradient(to right, var(--color23) 0%, var(--color17) 90%);
